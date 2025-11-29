@@ -70,6 +70,7 @@ SELECT
 FROM "orders"
 RIGHT OUTER JOIN "employees" ON "orders"."EmployeeID" = "employees"."EmployeeID";
  
+ -- sağ dış birleştirme
 
 
 
